@@ -67,26 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Help.cs" />
-    <Compile Include="LogLevels.cs" />
-    <Compile Include="SpecificTasks.cs" />
-    <Compile Include="Plugins\Exec.cs" />
-    <Compile Include="ScriptExecution.cs" />
-    <Compile Include="Support\FileSystem.cs" />
-    <Compile Include="ReenablingTasks.cs" />
-    <Compile Include="ExplicitTaskCalls.cs" />
-    <Compile Include="TaskDependencies.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="InlineTasks.cs" />
-    <Compile Include="DefaultTask.cs" />
-    <Compile Include="Support\Baufile.cs" />
-    <Compile Include="Support\MethodBaseExtensions.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Bau.Test.Acceptance.CreateFile\Bau.Test.Acceptance.CreateFile.csproj">
-      <Project>{82db9e13-3bcd-408e-b8a0-eb4d92e2ae63}</Project>
-      <Name>Bau.Test.Acceptance.CreateFile</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />

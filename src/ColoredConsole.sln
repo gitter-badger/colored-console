@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFiles", "SolutionFiles", "{4928A491-6E0E-4948-A9DD-F24A4A0AAC08}"
+	ProjectSection(SolutionItems) = preProject
+		Bau.Dictionary.xml = Bau.Dictionary.xml
+		Bau.ruleset = Bau.ruleset
+		Bau.Test.ruleset = Bau.Test.ruleset
+		CommonAssemblyInfo.cs = CommonAssemblyInfo.cs
+		Settings.StyleCop = Settings.StyleCop
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B32D81B0-BCE2-48E7-9CCE-8CD79547A5DE}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bau", "Bau\Bau.csproj", "{3302EC96-F250-49D0-B094-E960355D3799}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{28FDEE5B-453E-4977-A640-C8670DDC7258}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bau.Test.Acceptance", "test\Bau.Test.Acceptance\Bau.Test.Acceptance.csproj", "{EC69CA5E-7E64-43B5-A46C-FA12C56D31BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bau.Test.Component", "test\Bau.Test.Component\Bau.Test.Component.csproj", "{81551BBD-8350-4055-9E8D-7AB228E9EE4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bau.Test.Unit", "test\Bau.Test.Unit\Bau.Test.Unit.csproj", "{547AF348-2D55-4181-873D-65F51F630863}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3302EC96-F250-49D0-B094-E960355D3799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3302EC96-F250-49D0-B094-E960355D3799}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3302EC96-F250-49D0-B094-E960355D3799}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3302EC96-F250-49D0-B094-E960355D3799}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC69CA5E-7E64-43B5-A46C-FA12C56D31BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC69CA5E-7E64-43B5-A46C-FA12C56D31BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC69CA5E-7E64-43B5-A46C-FA12C56D31BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC69CA5E-7E64-43B5-A46C-FA12C56D31BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81551BBD-8350-4055-9E8D-7AB228E9EE4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81551BBD-8350-4055-9E8D-7AB228E9EE4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81551BBD-8350-4055-9E8D-7AB228E9EE4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81551BBD-8350-4055-9E8D-7AB228E9EE4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{547AF348-2D55-4181-873D-65F51F630863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{547AF348-2D55-4181-873D-65F51F630863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{547AF348-2D55-4181-873D-65F51F630863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{547AF348-2D55-4181-873D-65F51F630863}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC69CA5E-7E64-43B5-A46C-FA12C56D31BC} = {28FDEE5B-453E-4977-A640-C8670DDC7258}
+		{81551BBD-8350-4055-9E8D-7AB228E9EE4F} = {28FDEE5B-453E-4977-A640-C8670DDC7258}
+		{547AF348-2D55-4181-873D-65F51F630863} = {28FDEE5B-453E-4977-A640-C8670DDC7258}
+	EndGlobalSection
+EndGlobal

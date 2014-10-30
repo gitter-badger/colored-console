@@ -1,6 +1,6 @@
 Require<Bau>()
 
-.Task("default").DependsOn("unit", "component")
+.Task("default").DependsOn("unit", "component", "accept")
 
 .Task("logs").Do(() => CreateDirectory("artifacts/logs"))
 
@@ -20,12 +20,17 @@ Require<Bau>()
 
 .Xunit("unit").DependsOn("build", "tests").Do(xunit => xunit
     .Use("./packages/xunit.runners.1.9.2/tools/xunit.console.clr4.exe")
-    .Run("./src/test/Bau.Test.Unit/bin/Release/Bau.Test.Unit.dll", "./src/test/Bau.Xunit.Test.Unit/bin/Release/Bau.Xunit.Test.Unit.dll")
+    .Run("./src/test/Bau.Test.Unit/bin/Release/Bau.Test.Unit.dll")
     .Html().Xml())
 
 .Xunit("component").DependsOn("build", "tests").Do(xunit => xunit
     .Use("./packages/xunit.runners.1.9.2/tools/xunit.console.clr4.exe")
     .Run("./src/test/Bau.Test.Component/bin/Release/Bau.Test.Component.dll")
+    .Html().Xml())
+
+.Xunit("component").DependsOn("build", "tests").Do(xunit => xunit
+    .Use("./packages/xunit.runners.1.9.2/tools/xunit.console.clr4.exe")
+    .Run("./src/test/Bau.Test.Component/bin/Release/Bau.Test.Acceptance.dll")
     .Html().Xml())
 
 .Run();

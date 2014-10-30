@@ -8,14 +8,14 @@ var nugetVerbosity = Environment.GetEnvironmentVariable("NUGET_VERBOSITY") ?? "q
 var version = File.ReadAllText("src/CommonAssemblyInfo.cs").Split(new[] { "AssemblyInformationalVersion(\"" }, 2, StringSplitOptions.None).ElementAt(1).Split(new[] { '"' }).First();
 var nugetCommand = "packages/NuGet.CommandLine.2.8.2/tools/NuGet.exe";
 var xunitCommand = "packages/xunit.runners.1.9.2/tools/xunit.console.clr4.exe";
-var solution = "src/Bau.sln";
+var solution = "src/ColoredConsole.sln";
 var output = "artifacts/output";
 var tests = "artifacts/tests";
 var logs = "artifacts/logs";
-var units = new[] { "src/test/Bau.Test.Unit/bin/Release/Bau.Test.Unit.dll", "src/test/Bau.Xunit.Test.Unit/bin/Release/Bau.Xunit.Test.Unit.dll", };
+var units = new[] { "src/test/Bau.Test.Unit/bin/Release/Bau.Test.Unit.dll" };
 var component = "src/test/Bau.Test.Component/bin/Release/Bau.Test.Component.dll";
 var acceptance = "src/test/Bau.Test.Acceptance/bin/Release/Bau.Test.Acceptance.dll";
-var packs = new[] { "src/Bau/Bau", "src/Bau.Exec/Bau.Exec", "src/Bau.Xunit/Bau.Xunit", };
+var packs = new[] { "src/Bau/Bau" };
 
 // solution agnostic tasks
 var bau = Require<Bau>();
