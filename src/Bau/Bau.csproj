@@ -7,7 +7,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3302EC96-F250-49D0-B094-E960355D3799}</ProjectGuid>
+    <ProjectGuid>{C04DDB93-DF94-4A1D-BAEC-9258EA5C23FE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BauCore</RootNamespace>

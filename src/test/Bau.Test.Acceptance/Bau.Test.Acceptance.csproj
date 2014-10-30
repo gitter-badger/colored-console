@@ -7,7 +7,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EC69CA5E-7E64-43B5-A46C-FA12C56D31BC}</ProjectGuid>
+    <ProjectGuid>{A247E398-D820-4D1F-A18E-26313776CEDC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Bau.Test.Acceptance</RootNamespace>
