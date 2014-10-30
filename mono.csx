@@ -28,7 +28,7 @@ Require<Bau>()
     .Run("./src/test/ColoredConsole.Test.Component/bin/Release/ColoredConsole.Test.Component.dll")
     .Html().Xml())
 
-.Xunit("component").DependsOn("build", "tests").Do(xunit => xunit
+.Xunit("accept").DependsOn("build", "tests").Do(xunit => xunit
     .Use("./packages/xunit.runners.1.9.2/tools/xunit.console.clr4.exe")
     .Run("./src/test/ColoredConsole.Test.Acceptance/bin/Release/ColoredConsole.Test.Acceptance.dll")
     .Html().Xml())
