@@ -25,7 +25,7 @@ if [ -d ./packages/Bau.XUnit.0.1.0-beta06 ]
     mv ./packages/Bau.XUnit.0.1.0-beta06 ./packages/Bau.Xunit.0.1.0-beta06
 fi
 
-mono ./packages/NuGet.CommandLine.2.8.2/tools/NuGet.exe restore src/Bau.sln
+mono ./packages/NuGet.CommandLine.2.8.2/tools/NuGet.exe restore src/ColoredConsole.sln
   
 # script
 mono ./scriptcs/tools/scriptcs/scriptcs.exe ./mono.csx -- $@
