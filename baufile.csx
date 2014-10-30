@@ -12,10 +12,10 @@ var solution = "src/ColoredConsole.sln";
 var output = "artifacts/output";
 var tests = "artifacts/tests";
 var logs = "artifacts/logs";
-var units = new[] { "src/test/Bau.Test.Unit/bin/Release/Bau.Test.Unit.dll" };
-var component = "src/test/Bau.Test.Component/bin/Release/Bau.Test.Component.dll";
-var acceptance = "src/test/Bau.Test.Acceptance/bin/Release/Bau.Test.Acceptance.dll";
-var packs = new[] { "src/Bau/Bau" };
+var units = new[] { "src/test/ColoredConsole.Test.Unit/bin/Release/ColoredConsole.Test.Unit.dll" };
+var component = "src/test/ColoredConsole.Test.Component/bin/Release/ColoredConsole.Test.Component.dll";
+var acceptance = "src/test/ColoredConsole.Test.Acceptance/bin/Release/ColoredConsole.Test.Acceptance.dll";
+var packs = new[] { "src/ColoredConsole/ColoredConsole" };
 
 // solution agnostic tasks
 var bau = Require<Bau>();
