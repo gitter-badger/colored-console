@@ -17,6 +17,7 @@ Extensions are provided by [plugins](https://github.com/bau-build/bau/wiki/Plugi
 - [JabbR chat room](http://jabbr.net/#/rooms/bau)
 
 ##### Task definition
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/colored-console/colored-console?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ```C#
 // baufile.csx
 Require<Bau>().Do(() => Console.WriteLine("Hello world!")).Run();
