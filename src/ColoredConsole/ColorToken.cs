@@ -1,5 +1,5 @@
-﻿// <copyright file="ColorToken.cs" company="Bau contributors">
-//  Copyright (c) Bau contributors. (baubuildch@gmail.com)
+﻿// <copyright file="ColorToken.cs" company="ColoredConsole contributors">
+//  Copyright (c) ColoredConsole contributors. (coloredconsole@gmail.com)
 // </copyright>
 
 namespace ColoredConsole

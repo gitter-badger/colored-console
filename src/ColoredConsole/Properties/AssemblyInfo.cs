@@ -1,8 +1,8 @@
-﻿// <copyright file="AssemblyInfo.cs" company="Bau contributors">
-//  Copyright (c) Bau contributors. (baubuildch@gmail.com)
+﻿// <copyright file="AssemblyInfo.cs" company="ColoredConsole contributors">
+//  Copyright (c) ColoredConsole contributors. (coloredconsole@gmail.com)
 // </copyright>
 
 using System.Reflection;
 
-[assembly: AssemblyTitle("Bau")]
-[assembly: AssemblyDescription("Write your build scripts in C#.")]
+[assembly: AssemblyTitle("ColoredConsole")]
+[assembly: AssemblyDescription("Add some color to your console.")]

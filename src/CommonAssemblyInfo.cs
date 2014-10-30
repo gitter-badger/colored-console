@@ -1,5 +1,5 @@
-﻿// <copyright file="CommonAssemblyInfo.cs" company="Bau contributors">
-//  Copyright (c) Bau contributors. (baubuildch@gmail.com)
+﻿// <copyright file="CommonAssemblyInfo.cs" company="ColoredConsole contributors">
+//  Copyright (c) ColoredConsole contributors. (coloredconsole@gmail.com)
 // </copyright>
 
 using System;
@@ -7,11 +7,11 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Bau contributors")]
-[assembly: AssemblyCopyright("Copyright (c) Bau contributors. (baubuildch@gmail.com)")]
+[assembly: AssemblyCompany("ColoredConsole contributors")]
+[assembly: AssemblyCopyright("Copyright (c) ColoredConsole contributors. (coloredconsole@gmail.com)")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
-[assembly: AssemblyProduct("Bau")]
+[assembly: AssemblyProduct("ColoredConsole")]
 
 // NOTE (adamralph): the assembly versions are fixed at 0.0.0.0 - only NuGet package versions matter
 [assembly: AssemblyVersion("0.0.0.0")]
