@@ -43,7 +43,6 @@
     <Compile Include="ColorText.cs" />
     <Compile Include="ColorToken.cs" />
     <Compile Include="ColorConsole.cs" />
-    <Compile Include="Guard.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
