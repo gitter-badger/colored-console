@@ -41,21 +41,7 @@
     </Compile>
     <Compile Include="ColorText.cs" />
     <Compile Include="ColorToken.cs" />
-    <Compile Include="Log.cs" />
-    <Compile Include="LogLevel.cs" />
     <Compile Include="ColorConsole.cs" />
-    <Compile Include="Bau.cs" />
-    <Compile Include="BauTaskExtensions.cs" />
-    <Compile Include="DoubleExtensions.cs" />
-    <Compile Include="BauScriptPack.cs" />
-    <Compile Include="BauExtensions.cs" />
-    <Compile Include="IBauTask.cs" />
-    <Compile Include="ITaskBuilder{TTask}.cs" />
-    <Compile Include="Arguments.cs" />
-    <Compile Include="ProcessStartInfoExtensions.cs" />
-    <Compile Include="TaskBuilder{TTask}.cs" />
-    <Compile Include="ITaskBuilder.cs" />
-    <Compile Include="BauTask.cs" />
     <Compile Include="Guard.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -69,9 +55,6 @@
     </CodeAnalysisDictionary>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="ScriptCs.Contracts">
-      <HintPath>..\packages\ScriptCs.Contracts.0.9.0\lib\net45\ScriptCs.Contracts.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
   </ItemGroup>

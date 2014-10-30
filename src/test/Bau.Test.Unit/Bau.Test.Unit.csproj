@@ -45,22 +45,11 @@
     </CodeAnalysisDictionary>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DoubleExtensionsTheories.cs" />
-    <Compile Include="BauScriptPackFacts.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="FakeItEasy">
-      <HintPath>..\..\packages\FakeItEasy.1.21.0\lib\net40\FakeItEasy.dll</HintPath>
-    </Reference>
     <Reference Include="FluentAssertions">
       <HintPath>..\..\packages\FluentAssertions.3.0.107\lib\net45\FluentAssertions.dll</HintPath>
     </Reference>
     <Reference Include="FluentAssertions.Core">
       <HintPath>..\..\packages\FluentAssertions.3.0.107\lib\net45\FluentAssertions.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="ScriptCs.Contracts, Version=0.9.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\ScriptCs.Contracts.0.9.0\lib\net45\ScriptCs.Contracts.dll</HintPath>
     </Reference>
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Xml" />

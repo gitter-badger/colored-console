@@ -43,31 +43,11 @@
     </CodeAnalysisDictionary>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BauScriptPackFacts.cs" />
-    <Compile Include="InlineTasks.cs" />
-    <Compile Include="SpecificTasks.cs" />
-    <Compile Include="Support\ScriptHost.cs" />
-    <Compile Include="ReenablingTasks.cs" />
-    <Compile Include="TaskDependencies.cs" />
-    <Compile Include="DefaultTask.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="FakeItEasy">
-      <HintPath>..\..\packages\FakeItEasy.1.21.0\lib\net40\FakeItEasy.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="FluentAssertions">
       <HintPath>..\..\packages\FluentAssertions.3.0.107\lib\net45\FluentAssertions.dll</HintPath>
     </Reference>
     <Reference Include="FluentAssertions.Core">
       <HintPath>..\..\packages\FluentAssertions.3.0.107\lib\net45\FluentAssertions.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="LiteGuard">
-      <HintPath>..\..\packages\LiteGuard.0.8.0\lib\net35\LiteGuard.dll</HintPath>
-    </Reference>
-    <Reference Include="ScriptCs.Contracts, Version=0.9.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\ScriptCs.Contracts.0.9.0\lib\net45\ScriptCs.Contracts.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
